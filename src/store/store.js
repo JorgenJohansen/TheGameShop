@@ -31,8 +31,11 @@ export const store = new Vuex.Store({
     },
     //TODO: legg til funksjoner som skal være med
     getters:{
-        reduceStock: state => {
-
+        reduceStock: (state, payload) => {
+            state.games.map(game => {
+                console.log(game);
+            })
+            
         },
         productsForSale: state => {
             

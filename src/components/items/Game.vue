@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+  
   </div>
 </template>
 
@@ -8,6 +8,7 @@
 
 
 export default {
+  props:['games'],
   components: {
     
   }
